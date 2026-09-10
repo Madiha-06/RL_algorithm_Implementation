@@ -1,9 +1,8 @@
-import gymnasium as gym
 import cv2
 import pickle as pkl
 import numpy as np
 import matplotlib.pyplot as plt
-from epsilon_greedy_policy import Policy
+from simple_rl_implementation.epsilon_greedy_policy import Policy
 
 class Evaluator:
     def __init__(self, taxi_env,q_table_path="sarsa_q_table.pkl"):

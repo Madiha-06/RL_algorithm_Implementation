@@ -1,7 +1,7 @@
 import numpy as np
 import pickle as pkl
 import matplotlib.pyplot as plt
-from epsilon_greedy_policy import Policy
+from simple_rl_implementation.epsilon_greedy_policy import Policy
 
 class Training:
     @staticmethod

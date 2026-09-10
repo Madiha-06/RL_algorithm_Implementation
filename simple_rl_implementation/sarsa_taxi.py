@@ -1,8 +1,7 @@
 import gymnasium as gym
-
-from sarsa_testing import Tester
-from sarsa_training import Training
-from sarsa_evaluation import Evaluator
+from simple_rl_implementation.sarsa_testing import Tester
+from simple_rl_implementation.sarsa_training import Training
+from simple_rl_implementation.sarsa_evaluation import Evaluator
 
 # deterministic
 taxi_env = gym.make('Taxi-v4',is_rainy=False)
